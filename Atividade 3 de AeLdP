@@ -1,0 +1,139 @@
+Questão 03-
+programa {
+  funcao inicio() {
+   // declaração de variáveis
+   real nota1, nota2, nota3, media_aritmetica
+
+   //entrada de dados
+   escreva("Informe a primeira nota ")
+   leia(nota1)
+   escreva("Informe a segunda nota ")
+   leia(nota2)
+   escreva("Informe a terceira nota ")
+
+   //processamento
+   media_aritmetica = (nota1+nota2+nota3)/3
+
+   //saida de dados
+   escreva("A média do aluno é: ", media_aritmetica)
+
+  }
+}
+
+Questão 04-
+programa {
+  funcao inicio() {
+    //declaraçao de variaveis
+    real mes1, mes2, mes3, media_aritmetica
+
+    //entrada de dados
+    escreva("informe o primeiro mês ")
+    leia(mes1)
+    escreva("informe o segundo mês ")
+    leia(mes2)
+    escreva("informe o terceiro mês ")
+    leia(mes3)
+    
+    //processamento
+    media_aritmetica= (mes1+mes2+mes3)/3
+
+    //saida de dados
+    escreva("A média aritmética é: ", media_aritmetica)
+
+  }
+}
+
+Questão 05-
+programa {
+  funcao inicio() {
+    //declaraçao de variaveis
+    real altura, peso_ideal
+
+    //declaraçao de constante
+    const real k=72.7
+    const inteiro b=58
+
+    //declaraçao de dados
+    escreva("Informe a altura do homem ")
+    leia (altura)
+
+    //processamento
+    peso_ideal=(k*altura)-b
+
+    //saida de dados
+    escreva("O peso ideal é: ", peso_ideal)
+  }
+}
+
+Questão 06-
+programa {
+  funcao inicio() {
+    //declaraçao de variaveis
+    real troca, x, y
+
+    //entrada de dados 
+    escreva("Informe o valor de x ")
+    leia(x)
+    escreva("Informe o valor de y ")
+    leia(y)
+    
+    //processamento
+    troca=x
+    x=y
+    y=troca
+
+    //saida de dados
+    escreva("Os novos valores é: ", x e y)
+  }
+}
+
+Questão 07-
+programa {
+  funcao inicio() {
+    //declaraçao de variaveis
+    real raio, diametro, comprimento, area
+     
+     //declaraçao de constante
+     const real pi=3.14
+
+     //entrada de dados
+     escreva("informe o valor do raio ")
+     leia(raio)
+     escreva("informe o valor do diametro ")
+     leia(diametro)
+     escreva("informe o valor do comprimento ")
+     leia(comprimento)
+     escreva("informe o valor da area ")
+     leia(area)
+
+     //processamento
+     diametro=2*raio
+     comprimento=pi*diametro
+     area=pi*(raio*2)
+
+     //saida de dados
+     escreva("O valor do raio é: ", raio)
+
+  }
+}
+
+Questão 08-
+programa {
+  funcao inicio() {
+    //declaraçao de variaveis
+    real celsius, fahrenheit
+
+    //entrada de dados
+    escreva("informe o celsius ")
+    leia(celsius)
+    escreva("informe o fahrenheit ")
+    leia(fahrenheit)
+    
+    //processamento
+    fahrenheit=celsius*(9/5)+32
+
+    //saida de dados
+    escreva("Os valores de fahrenheit e celsius é: ")
+
+  }
+}
