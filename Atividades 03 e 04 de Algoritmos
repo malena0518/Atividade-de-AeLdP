@@ -1,0 +1,411 @@
+Questão 03-
+programa {
+  funcao inicio() {
+   // declaração de variáveis
+   real nota1, nota2, nota3, media_aritmetica
+
+   //entrada de dados
+   escreva("Informe a primeira nota ")
+   leia(nota1)
+   escreva("Informe a segunda nota ")
+   leia(nota2)
+   escreva("Informe a terceira nota ")
+
+   //processamento
+   media_aritmetica = (nota1+nota2+nota3)/3
+
+   //saida de dados
+   escreva("A média do aluno é: ", media_aritmetica)
+
+  }
+}
+
+Questão 04-
+programa {
+  funcao inicio() {
+    //declaraçao de variaveis
+    real mes1, mes2, mes3, media_aritmetica
+
+    //entrada de dados
+    escreva("informe o primeiro mês ")
+    leia(mes1)
+    escreva("informe o segundo mês ")
+    leia(mes2)
+    escreva("informe o terceiro mês ")
+    leia(mes3)
+    
+    //processamento
+    media_aritmetica= (mes1+mes2+mes3)/3
+
+    //saida de dados
+    escreva("A média aritmética é: ", media_aritmetica)
+
+  }
+}
+
+Questão 05-
+programa {
+  funcao inicio() {
+    //declaraçao de variaveis
+    real altura, peso_ideal
+
+    //declaraçao de constante
+    const real k=72.7
+    const inteiro b=58
+
+    //declaraçao de dados
+    escreva("Informe a altura do homem ")
+    leia (altura)
+
+    //processamento
+    peso_ideal=(k*altura)-b
+
+    //saida de dados
+    escreva("O peso ideal é: ", peso_ideal)
+  }
+}
+
+Questão 06-
+programa {
+  funcao inicio() {
+    //declaraçao de variaveis
+    real troca, x, y
+
+    //entrada de dados 
+    escreva("Informe o valor de x ")
+    leia(x)
+    escreva("Informe o valor de y ")
+    leia(y)
+    
+    //processamento
+    troca=x
+    x=y
+    y=troca
+
+    //saida de dados
+    escreva("Os novos valores é: ", x e y)
+  }
+}
+
+Questão 07-
+programa {
+  funcao inicio() {
+    //declaraçao de variaveis
+    real raio, diametro, comprimento, area
+     
+     //declaraçao de constante
+     const real pi=3.14
+
+     //entrada de dados
+     escreva("informe o valor do raio ")
+     leia(raio)
+     escreva("informe o valor do diametro ")
+     leia(diametro)
+     escreva("informe o valor do comprimento ")
+     leia(comprimento)
+     escreva("informe o valor da area ")
+     leia(area)
+
+     //processamento
+     diametro=2*raio
+     comprimento=pi*diametro
+     area=pi*(raio*2)
+
+     //saida de dados
+     escreva("O valor do raio é: ", raio)
+
+  }
+}
+
+Questão 08-
+programa {
+  funcao inicio() {
+    //declaraçao de variaveis
+    real celsius, fahrenheit
+
+    //entrada de dados
+    escreva("informe o celsius ")
+    leia(celsius)
+    escreva("informe o fahrenheit ")
+    leia(fahrenheit)
+    
+    //processamento
+    fahrenheit=celsius*(9/5)+32
+
+    //saida de dados
+    escreva("Os valores de fahrenheit e celsius é: ")
+
+  }
+}
+
+Questão 09-
+programa {
+  funcao inicio() {
+    //Declaração de variavel
+    inteiro num, centena, dezena, unidade, cont 
+
+    //Entrada de Dados 
+    escreva("Informe um número com três digitos: ")
+    leia(num)
+
+    //processamento
+    centena = num / 100
+    cont = num % 100
+    dezena = cont / 10
+    cont = cont % 10
+    unidade = cont
+    escreva("O número ao contrário é ", unidade, dezena, centena)
+  }
+}
+
+Questão 10-
+programa {
+  funcao inicio() {
+    //Declaração de variavel
+     real ganhador1, ganhador2, ganhador3
+
+     //Declaração de constante
+     const inteiro valortotal = 780.000
+
+    //Entrada de Dados
+
+    //processamento
+     ganhador1 = valortotal * 0.46
+     ganhador2 = valortotal * 0.32
+     ganhador3 = valortotal * 0.22
+
+     //saida dos dados
+     escreva("O premio para o primeiro ganhador sera ", ganhador1 ,"00 O segundo sera ", ganhador2 , "00 E o terceiro ", ganhador3, "00") 
+  }
+}
+
+Atividade 04
+Questão 01-Letra A
+programa {
+  funcao inicio() {
+    //entrada de dados
+    //10 por 7
+    escreva("********** \n")
+    escreva("*        * \n")
+    escreva("*        * \n")
+    escreva("*        * \n")
+    escreva("*        * \n")
+    escreva("*        * \n")
+    escreva("********** \n")
+    //7 por 5
+    escreva("   *** \n")
+    escreva(" *     * \n")
+    escreva("*       * \n")
+    escreva("*       * \n")
+    escreva("*       * \n")
+    escreva(" *     * \n")
+    escreva("   *** \n")
+    //9 por 7
+    escreva("    * \n")
+    escreva("   *** \n")
+    escreva("  ***** \n")
+    escreva(" ******* \n")
+    escreva("********* \n")
+    escreva("    * \n")
+    escreva("    * \n")
+    //>=7 por <=4
+    escreva("     *    \n")
+    escreva("    * *  \n")
+    escreva("   *   * \n")
+    escreva("  *     * \n")
+    escreva("   *   * \n")
+    escreva("    * * \n")
+    escreva("     * \n")
+    }
+  }
+
+Letra B-
+programa {
+  funcao inicio() {
+    //Declaração de variavel
+    cadeia nome, sobrenome
+
+    //Entrada de Dados
+    escreva("Qual seu nome: ")
+    leia(nome)
+    escreva("qual seu sobrenome: ")
+    leia(sobrenome)
+
+    //Saida de dados
+    escreva("O seu nome ao contrário é ", sobrenome , nome)
+  }
+}
+
+Letra C-
+rograma {
+  funcao inicio() {
+//Declaração de variavel
+      inteiro num1, num2 , soma, sub, multi, divi, resto
+
+    //Entrada de Dados
+      escreva("escreva o primeiro numero: ")
+      leia(num1)
+      escreva("escreva o segundo numero: ")
+      leia(num2)
+
+    //processamento
+    soma = num1 + num2
+    sub = num1 - num2
+    multi = num1 * num2
+    divi = num1 / num2
+    resto = num1 % num2
+
+    //Saida de dados
+
+      escreva("A soma é ", soma, " A subtração é ", sub, " A multiplicação é ", multi, " A divisão é ", divi, " E o resto é ", resto)
+
+  }
+}
+
+Letra D-
+programa {
+  funcao inicio() {
+//Declaração de variavel 
+    real celsius, farenheit 
+    //Entrada de Dados 
+    escreva("Informe a temperatura em celsius: ")
+    leia(celsius)
+
+    //Processamento
+    farenheit = (9 * celsius + 160) / 5
+
+    //saida de Dados 
+    escreva("A temperatura em farenheit é ", farenheit)
+  }
+}
+
+Letra E-
+programa {
+  funcao inicio() {
+   //Declaração de variavel 
+    real celsius , farenheit 
+
+    //Entrada de Dados 
+    escreva("informe a temperatura em farenheit ")
+    leia(farenheit)
+    //Processamento
+    celsius =((farenheit - 32) * 5) / 9
+    //saida de Dados 
+    escreva("A temeperatura em celsius ", celsius, " graus celsius ")
+  }
+}
+
+Letra F-
+programa {
+  funcao inicio() {
+ //Declaração de variavel 
+    real raio, volume, altura
+
+    //Declaração de constante
+    const real pi = 3.14
+    
+    //Entrada de Dados 
+    escreva("Informe o valor do raio: ")
+    leia(raio)
+    escreva("Informe o valor da altura: ")
+    leia(altura)
+
+    //Processamento
+    volume = raio * pi * altura
+
+    //saida de Dados 
+    escreva("O valor do volume interno do recipiente é ", volume , "L")
+  }
+}
+
+Letra G-
+programa {
+  funcao inicio() {
+ //Declaração de variavel 
+    real reais, dolares, euro, libras
+    
+    //Entrada de Dados 
+    escreva("informe o valor em reais: ")
+    leia(reais)
+
+    //Processamento
+    dolares = reais / 5.54
+    euro = reais / 7.86 
+    libras = reais/7.45
+
+    //saida de Dados 
+    escreva("o valor em dolares em ", dolares, " Em euros ", euro, " Em libra " , libras)
+  }
+}
+
+Letra H-
+programa {
+  funcao inicio() {
+ //Declaração de variavel 
+    real dolar, euro, libra, conversor, gasto, eua, reino_unido, franca
+
+    //Declaração de constantes
+    const inteiro reais = 60.000
+    const inteiro notebook = 1.745
+    const inteiro estadia = 2.350
+    
+    //Entrada de Dados 
+
+    //Processamento
+    dolar = 1.745 + 2.350
+    gasto = dolar * 5.4
+    eua = reais - gasto
+    libra = 8500
+    conversor = libra * 7.38
+    reino_unido = eua - conversor
+    euro = 4.500
+    conversor = 4.500 * 6.3
+    franca = reino_unido - conversor
+    //saida de Dados 
+    escreva("O que sobrou foi", franca)
+  }
+}
+
+Letra I-
+programa {
+  funcao inicio() {
+//Declaração de variavel 
+    cadeia cnpj, endereco, cidade, telefone, email, nome, ass
+
+    //entrada de Dados
+    escreva("Informe sue nome: ")
+    leia(nome)
+     escreva("Informe o seu cnpj: ")
+     leia(cnpj)
+     escreva("Informe sua cidade: ")
+     leia(cidade)
+    escreva("Informe seu endereço: ")
+    leia(endereco)
+    escreva("informe o telefone: ")
+    leia(telefone)
+    escreva("Informe seu email:  ")
+    leia(email)
+
+   //Saida de Dados
+   escreva("------------------------------------------------------------------------------- \n ")
+   escreva("EMPRESA EXEMPLO Ltda. \n")
+   escreva("CNPJ: ", cnpj, "\n")
+   escreva("endereço: ", endereco ,"cidade: " , cidade , "\n")
+   escreva("telefone: ", telefone ,"email: ", email , "\n")
+   escreva("Holerite de Orçamento \n Data: 31/05/2025 \n")
+   escreva("----------------------------------------------------------------------------------- \n")
+   //Tabela
+   escreva("Descrição     |    QTD    |    Preço Unitário  |   Total \n")
+   escreva("NotebookHp    |     1     |      3.200         |      3.200 \n")
+   escreva("Impressora    |    1      |     1.100          |   1.100 \n")
+   escreva("pacote de papel |  5      |      35.00         |    175.00 \n ")
+  escreva("Licença        |  1        |      420.00        |    420.00 \n ")
+  escreva("Serviço de Software |  1   |      150.00        |    150.00 \n ")
+  escreva("------------------------------------------------------------------------ \n")
+  escreva("                                             Total Geral: 5.045 \n")
+  escreva("Observações \n ºOrçamento válido por 10 dias \n ºValores sujeitos a disponibilidade do estoque \n ºPagamento via bancário ou Pix \n")
+  escreva("Responsável pelo Orçamento: ", nome)
+  escreva("Assinatura: ")
+  leia(ass)
+  }
+}
