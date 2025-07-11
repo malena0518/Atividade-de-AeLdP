@@ -1,1 +1,117 @@
+Questão 01-
+programa{
+funcao inicio(){
+// Declaração de variáveis
+real: lucro, poupanca, quant_paes, quant_broas;
 
+// Declaração de constantes
+constante real: 1pão= 0,32, 1broa = 1,50;
+
+// Entrada de dados
+escreva("Informe a quantidade de pães: ");
+leia(quant_paes);
+
+escreva("Informe a quantidade de broas: ");
+leia(quant_broas);
+
+// Processamento
+lucro ← (quant_paes * 0,32) + (quant_broas * 1,50);
+poupanca ← (10 / 100) * lucro;
+
+// Saída de dados
+escreva("O lucro foi de: ", lucro, " e a poupança foi de: ", poupanca);
+   }
+
+}
+
+Questão 02-
+programa {
+funcao inicio (){
+//declaracao de variaveis 
+inteiro dias_de_vida, idade, cadeia, nome
+//entrada de dados
+escreva("informe o nome: ")
+leia(nome)
+escreva("digite sua idade: ")
+leia(idade)
+//processamento
+dias_de_vida = idade * 365
+//saida de dados
+escreva(nome, "voce tem ", idade, "anos de idade e ", dias_de_vida, "dias de vida")
+  }
+
+}
+
+Questão 03-
+programa {
+ funcao inicio() {
+    //declaracao de variaveis
+    real peso, valor_pago, valor_a_pagar, troco
+
+    //declaracao de constante
+    const real preco_por_rg = 12
+
+    //entrada de dados
+    escreva("digite o peso do prato em kg: ")
+    leia(peso)
+    escreva("digite o valor pago pelo cliente: ")
+    leia(valor_pago)
+
+    //processamento
+    valor_a_pagar = peso * 12
+    troco = valor_pago - valor_a_pagar
+
+    //saida de dados
+    escreva(" O valor a pagar:R$ ", valor_a_pagar, "\n")
+    escreva("O troco é: R$", troco)
+  }
+}
+
+
+Questão 04-
+programa{
+    funcao inicio() {
+        // Declaração de variaveis
+        inteiro dia, mes, dias_passados
+
+        // Entrada de dados
+        escreva("Informe o dia: ")
+        leia(dia)
+
+        escreva("Informe o mês: ")
+        leia(mes)
+
+        // Processamento
+        dias_passados = (mes * 30) + dia
+
+        // Saída de dados
+        escreva("Já se passaram ", dias_passados, " dias desde o início do ano.")
+    }
+}
+
+Questão 05-
+programa {
+  funcao inicio() {
+    //declaracao de variaveis
+    real quantidade_lata, quantidade_garrafa1, quantidade_garrafa2, total_litros
+
+    //declaracao de constante
+    const real lata = 0.35
+    const real garrafa1 = 0.6
+    const real garrafa2 = 2.0
+
+    //entrada de dados
+    escreva("Informe a quantidade comprada de latas:") 
+    leia(quantidade_lata)
+    escreva("Informe a quantidade comprada de garrafa de 350ml: ")
+    leia(quantidade_garrafa1)
+    escreva("Informe a quantidade comprada de garrafa de 600ml: ")
+    leia(quantidade_garrafa2)
+
+    //processamento
+    total_litros = (quantidade_lata * 0.35) + (quantidade_garrafa1 * 0.6) + (quantidade_garrafa2 * 2.0)
+
+    //saida de dados
+    escreva("Total de litros que ele comprou é: ", total_litros, "litros")
+  }
+}
